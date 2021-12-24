@@ -78,7 +78,7 @@ body {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    color: #ff6b08;
+    color: #1e2939;
     margin-left: 15px;
 }
 .teh-skl-text{
@@ -100,7 +100,7 @@ body {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    color: #ff6b08;
+    color: #1e2939;
     margin-left: 15px;
 }
 .soft-skl-text{
@@ -160,14 +160,14 @@ body {
     
 }
 .profesoin-titl{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 24px;
     margin-top: 10px;
     margin-bottom: 15px;
 }
 .orange{
-    color: #ff6b08;
+    color: #1e2939;
 }
 .prof-time{
     color: #a8a8a8;
@@ -187,7 +187,7 @@ margin-bottom: 30px;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    margin-left: 15px;
+    /* margin-left: 15px; */
 }
 .meneg{
     font-size: 14px;
