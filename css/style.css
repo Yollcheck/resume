@@ -14,25 +14,33 @@ body {
 }
 .main-container {
     background: #ffffff;
-    display: flex;
-    max-width: 1000px;
-    margin: 0 auto;
+    /* display: flex;
+    max-width: 100px;
+    margin: 0 auto; */
     box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 }
 .sidebar {
     background: #1e2939;
-    width: 370px;
+    /* width: 370px; */
+    width: 100%;
     padding-top: 40px;
     padding-bottom: 40px;
 }
 .my-foto {
-    width: 370px;
+    /* width: 370px; */
+    width: 60%;
+    display: block;
+    margin: -40px auto;
 }
 .abot-me-container{
-    padding-left: 90px;
+    padding-left: 21px;
+    padding-right: 20px;
+    padding-top: 0;
+    padding-bottom: 35px;
+    /* padding-left: 90px;
     padding-right: 90px;
     padding-top: 11px;
-    padding-bottom: 110px;
+    padding-bottom: 110px; */
 }
 .contacts-conteiner{
     margin-top: 60px;
@@ -42,10 +50,21 @@ body {
 }
 .contacts-titl{
     font-size: 22px;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: 24px;
     color: #ffffff;
     margin-bottom: 20px;
+}
+.cont-link-icon{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    fill: white;
+    
+}
+.cont-link-icon:hover{
+    scale: 1.2;
 }
 .contacts-link{
     font-size: 14px;
@@ -54,13 +73,16 @@ body {
     color: #8e949c;
     text-decoration: none;
 }
+.contacts-link:hover{
+    scale: 1.1;}
+
 .cont-link-type{
+    display: flex;
     font-size: 14px;
     font-weight: 700;
     line-height: 24px;
     color: #ffffff;
-    margin-right: 10px;
-    
+   
 }
 .tech-skills-title{
     font-size: 22px;
@@ -72,7 +94,8 @@ body {
 .tech-skills-conteiner{
     margin-left: 40px;
     margin-right: 40px;
-    margin-bottom: 55px;
+    margin-bottom: 15px;
+    /* margin-bottom: 55px; */
 }
 .tech-skils-item {
     font-size: 14px;
@@ -87,7 +110,15 @@ body {
 .soft-skills-conteiner {
     margin-left: 40px;
     margin-right: 40px;
-    margin-bottom: 55px;
+    margin-bottom: 15px;
+    /* margin-bottom: 55px; */
+}
+
+.soft-skills-conteiner__hobby {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 15px;
+    /* margin-bottom: 55px; */
 }
 .soft-skills-title{
     font-size: 22px;
@@ -159,12 +190,12 @@ body {
     margin-bottom: 35px;
     
 }
-.profesoin-titl{
+.profesoin-title{
     font-size: 18px;
     font-weight: 700;
     line-height: 24px;
     margin-top: 10px;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
 }
 .orange{
     color: #1e2939;
@@ -196,3 +227,64 @@ margin-bottom: 30px;
     margin-top: 15px;
 }
 
+@media (min-width: 768px) and (max-width: 991px)  { 
+.my-foto {
+    width: 35%;
+    display: initial;
+    margin: auto 50px;
+  }
+
+.contacts-conteiner {
+    margin-top: -136px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    text-align: end;
+}
+.cont-link-type {
+    justify-content: end;
+}
+.tech-skills-conteiner {
+    margin-left: 461px;
+    margin-right: 40px;
+    margin-bottom: 11px;
+    margin-top: 52px;
+}
+.soft-skills-conteiner {
+   margin-top: -245px;
+  }
+  .sidebar {
+    padding-bottom: 20px;}
+} 
+
+@media (min-width: 992px)  { 
+
+    .main-container {
+       
+        display: flex;
+        max-width: 100%;
+        margin: 0 auto;
+        /* box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15); */
+    }
+    .sidebar {
+        width: 370px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .my-foto {
+        width: 370px;
+    }
+    .abot-me-container{
+        padding-left: 90px;
+        padding-right: 90px;
+        padding-top: 11px;
+        /* padding-bottom: 110px; */
+    }
+    .contacts-conteiner{
+        margin-top: 60px;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 20px;
+    }
+   
+}
