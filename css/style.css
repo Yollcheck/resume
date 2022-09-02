@@ -83,22 +83,22 @@ body {
 .cont-link-type{
     display: flex;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 24px;
     color: #ffffff;
    
 }
 .tech-skills-title{
     font-size: 22px;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 55px;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
     color: #ffffff;
 }
 .tech-skills-conteiner{
     margin-left: 40px;
     margin-right: 40px;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
     /* margin-bottom: 55px; */
 }
 .tech-skils-item {
@@ -114,7 +114,7 @@ body {
 .soft-skills-conteiner {
     margin-left: 40px;
     margin-right: 40px;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
     /* margin-bottom: 55px; */
 }
 
@@ -128,7 +128,7 @@ body {
     font-size: 22px;
     font-weight: 700;
     line-height: 55px;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
     color: #ffffff;
 }
 .soft-skils-item {
@@ -160,14 +160,14 @@ body {
     margin-top: 24px;
 }
 .abot-me-info{
-    margin-bottom: 65px;
+    margin-bottom: 15px;
 }
 .about-me-titl{
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 24px;
-    margin-top: -15px;
-    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.2;
+    /* margin-top: 15px; */
+    /* margin-bottom: 15px; */
 }
 .project-link{
     color: #595959;
@@ -195,13 +195,13 @@ body {
     
 }
 .profesoin-title{
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 14px;
+    font-weight: 500;
     line-height: 24px;
     /* margin-top: 10px; */
     /* margin-bottom: 15px; */
 }
-.orange{
+.colour{
     color: #1e2939;
 }
 .prof-time{
@@ -215,7 +215,10 @@ body {
 }
 .prof-duty{
 margin-top: 14px;
-margin-bottom: 30px;
+margin-bottom: 15px;
+}
+.descr{
+    display: block;
 }
 .work-text{
     color: #595959;
@@ -228,7 +231,8 @@ margin-bottom: 30px;
     font-size: 14px;
     font-weight: 700;
     line-height: 24px;
-    margin-top: 15px;
+    margin-top: 20px;
+    
 }
 
 @media (min-width: 768px) and (max-width: 991px)  { 
@@ -278,9 +282,9 @@ margin-bottom: 30px;
     .my-foto {
         width: 370px;
     }
-    .abot-me-container{
-        padding-left: 90px;
-        padding-right: 90px;
+    .about-me-container{
+        padding-left: 55px;
+        padding-right: 55px;
         padding-top: 11px;
         /* padding-bottom: 110px; */
     }
